@@ -139,9 +139,14 @@ main .caracteristicasArticulo {
     flex-flow: row wrap;
 }
 
+main section article a {
+    text-decoration: none;
+}
+
 main section article p {
     font-size: 16px;
     margin: 0;
+    color: #000;
 }
 
 main section article i {
@@ -305,6 +310,65 @@ main .buttons button a{
     color: #fff;
 }
 
+/* ================== PRODUCTS MAIN ============================ */
+/* 
+.main-products {
+    margin-top: 173.9px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+} */
+
+/* ================= PRODUCT DETAIL ===================== */
+
+.main-productDetail{
+    margin-top: 173.9px;
+}
+
+.productDetail {
+    display: flex;
+    padding: 20px;
+}
+
+.productDetail .detailsContainer {
+    padding: 20px 0 0 20px;
+}
+
+.detailsContainer .productName {
+    margin-top: 0;
+}
+
+.detailsContainer p {
+    margin-bottom: 20px;
+}
+
+.priceBox {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    font-size: medium;
+}
+
+.priceBox .priceDiscount {
+    display: flex;
+    color: #39b54a
+}
+
+.priceBox .priceText {
+    display: flex;
+}
+
+.priceBox .priceText p {
+    margin-right: 5px;
+}
+
+.productPrice {
+    text-decoration: line-through;
+}
+
+.finalPrice {
+    font-size: medium;
+}
 
 /* ================= FOOTER ======================= */
 
